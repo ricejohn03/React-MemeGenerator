@@ -1,0 +1,53 @@
+/* Container holding the image and the text */
+.imagecontainer {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.imagecontainer img{
+    max-width: 80%;
+    max-height: 700px;
+}
+
+/* Centered  top text */
+.topText {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+    font-family: Impact, Haettenschweiler;
+}
+
+.bottomText {
+    position: absolute;
+    left: 50%;
+    bottom: 15%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+    text-shadow: 0.07em 0 black, 0 0.07em black, -0.07em 0 black, 0 -0.07em black;
+    font-family: Impact, Haettenschweiler;
+}
+
+.meme-text {
+    font-family: Impact, Haettenschweiler;
+}
+
+.footer {
+    position: page;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    text-align: center;
+   
+}
+
+form {
+    padding-bottom: 120px;
+}
